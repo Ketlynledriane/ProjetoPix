@@ -1,0 +1,9 @@
+.banner {
+    display: flex;
+    justify-content: space-between
+}
+
+.banner__img {
+    width: 400px;
+    height: auto;
+}

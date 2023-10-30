@@ -1,0 +1,20 @@
+main {
+    padding: 100px 200px;
+    background-color: lightblue;
+}
+
+#banner {
+    display: flex;
+    justify-content: space-between;
+}
+
+#banner img {
+    width: 30%;
+    height: 300px;
+    object-fit: cover;
+    padding-right: 50px;
+}
+
+.info_banner {
+    width: 500px;
+}

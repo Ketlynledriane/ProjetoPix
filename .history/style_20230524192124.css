@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 0px 5px #dedddd;
+    position: relative;
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    background-color: #ffffff;
+}
+
+.logo {
+    padding-left: 100px;
+    width: auto;
+    height: 60px;
+}
+
+.links {
+    padding-right: 100px;
+    padding-top: 20px;
+}
+
+.links a {
+    padding: 20px;
+    text-decoration: none;
+    color: #382c32;
+}
+
+.links a:hover {
+    font-weight: ;
+}
+
+main {
+    padding: 0 100px 0 100px;
+}
+
+#banner {
+    padding: 0 200px 0 200px;
+    flex-direction: row-reverse;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    border-bottom: 1px solid rgba(203, 199, 203, 0.3);;
+}
+
+#banner img {
+    height: 600px;
+    width: auto;
+}
+
+.info_banner {
+    margin-top: 200px;
+    padding-right: 200px;
+}
+
+.info_banner h1 {
+    margin-bottom: 40px;
+}
+
+.container_sobre {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    padding: 0 400px 0 400px;
+    margin-bottom: 20px;
+}
+
+.subtitle span {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.container_projetos {
+    padding: 0 100px 0 100px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.container_projetos img {
+    margin-bottom: 20px;
+    height: 150px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.column_projetos {
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.column_projetos a {
+    margin-top: 20px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+}
+
+.column_projetos a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+footer {
+    border-top: 1px solid rgba(203, 199, 203, 0.3); ;
+    padding: 50px 200px;
+}
+
+footer .logo_footer {
+    height: 120px;
+    width: auto;
+}
+
+footer .row_footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media (max-width: 480px) {
+    header {
+        height: 100px;
+        width: 100%;
+    }
+
+    .links {
+        display: none;
+    }
+}

@@ -1,0 +1,15 @@
+main {
+    padding: 100px 200px;
+}
+
+#banner {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+#banner img {
+    width: 30%;
+    height: 300px;
+    object-fit: cover;
+}

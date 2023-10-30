@@ -1,0 +1,25 @@
+body {
+    padding-top: 0;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 200px;
+    height: 80px;
+}
+
+.links {
+    padding-top: 30px;
+}
+
+.links a {
+    padding: 20px;
+    text-decoration: none;
+
+}
